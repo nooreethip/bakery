@@ -139,6 +139,7 @@
     <div class="head">
         <form action="">
             <div class="row">
+
                 <div class=" span ">
                     <img
                         src="https://scontent.xx.fbcdn.net/v/t1.15752-9/263800363_632087001314699_3746873862771308394_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=aee45a&_nc_eui2=AeEc5e_1GhX5Nj4wbhkcfOxf9HdN9pn8pZb0d032mfyllsd7Z6-TPxV20ZCrjbQuH-5u-e2jGKsnuQ8ClQGyMi79&_nc_ohc=FXfEjKEStgcAX8-h4kr&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AVKv6AYEsOS-Dda4Ui01pLCjYq15aWXC9gs4kZfmJ_iVWg&oe=61DEFE02">
@@ -161,36 +162,45 @@
                 <li><a href="#">คัพเค้ก</a></li>
                 <li><a href="#">คุ๊กกี้</a></li>
             </ul>
+            <div class="row" style="margin: 5rem;">
+                <div class="mx-auto">
+                    <div class="col-4 d-flex justify-content-center"style="padding-left: 10rem">
 
-            <div class="mx-auto">
-                <div class="nav justify-content-center">
-                    <div class="dropdown drop">
-                        <button class="btn  dropdown-toggle" style="background-color: #FFA900; width: 9em;height: 3em;"
-                            type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
-                            aria-expanded="false">
-                            เลือกใส้
-                        </button>
-                        <div class="dropdown-menu" aria-labelledby="เลือกใส้" style="background-color: #FFBE40;">
-                            <a class="dropdown-item" href="#">ใส้กรอก</a>
-                            <a class="dropdown-item" href="#">ใส้ชีส</a>
-                            <a class="dropdown-item" href="#">ใส้ช็อกโกแลต</a>
-                            <a class="dropdown-item" href="#">ใส้เผือก</a>
+
+                        <div class="img1"><img
+                                src="https://scontent.xx.fbcdn.net/v/t1.15752-9/p206x206/266250439_436577054854173_87257453603767011_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=aee45a&_nc_eui2=AeE3uJcqqquw2BpBxc4pcr7JaulYtYepaJVq6Vi1h6lolT7h81dsnf20BR7LUia8hH-8tXQXhvUqNA_te1H1rXCn&_nc_ohc=oJcjH11z8Y4AX_UUb2M&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AVK6Q6uNpB-P5zLoBmAGruuy3J08Sw9LhBzgOgLsHyWQNg&oe=61E1DE91">
+                            <br> </br>
+
+                            <p style="color:black">จำนวน : &nbsp; <i class="fa fa-plus-circle" id="plus"
+                                    aria-hidden="true">&emsp;<input type="number" name="" id="">&emsp;
+                                    <i class="fa fa-minus-circle" id="delete" aria-hidden="true"></i></i></p>
+
                         </div>
+                        &emsp;
+                        <div class="nav justify-content"style="padding-left: 5rem">
+                            <div class="dropdown drop">
+                                <button class="btn  dropdown-toggle"
+                                    style="background-color: #FFA900; width: 9em;height: 3em;" type="button"
+                                    id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false">
+                                    เลือกใส้ </button>
+                                <div class="dropdown-menu" aria-labelledby="เลือกใส้"
+                                    style="background-color: #FFBE40;">
+                                    <a class="dropdown-item" href="#">ใส้กรอก</a>
+                                    <a class="dropdown-item" href="#">ใส้ชีส</a>
+                                    <a class="dropdown-item" href="#">ใส้ช็อกโกแลต</a>
+                                    <a class="dropdown-item" href="#">ใส้เผือก</a>
+                                </div>
+                            </div>
+                        </div>
+
+
                     </div>
-                </div>
-                
-                <div class="img1"><img
-                        src="https://scontent.xx.fbcdn.net/v/t1.15752-9/p206x206/266250439_436577054854173_87257453603767011_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=aee45a&_nc_eui2=AeE3uJcqqquw2BpBxc4pcr7JaulYtYepaJVq6Vi1h6lolT7h81dsnf20BR7LUia8hH-8tXQXhvUqNA_te1H1rXCn&_nc_ohc=oJcjH11z8Y4AX_UUb2M&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AVK6Q6uNpB-P5zLoBmAGruuy3J08Sw9LhBzgOgLsHyWQNg&oe=61E1DE91">
-                    <br> </br>
-
-                    <p style="color:black">จำนวน : &nbsp; <i class="fa fa-plus-circle" id="plus"
-                            aria-hidden="true">&emsp;<input type="number" name="" id="">&emsp;
-                            <i class="fa fa-minus-circle" id="delete" aria-hidden="true"></i></i></p>
-
                 </div>
             </div>
 
-           
+
+
             <p>เลือกหน้าครัวซอง
                 <hr style="border: -1px solid #000000;">
             </p>
@@ -274,7 +284,7 @@
                     </div>
                 </div>
             </footer>
-           
+
         </form>
 </body>
 
